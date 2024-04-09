@@ -17,8 +17,8 @@ import db from '../db/conn.mjs';
 // S - Show     GET         READ - display a specific element
 
 // seed route
-router.get("/seed", async (req, res) => {
-    console.log('in seed');
+router.get("/new", async (req, res) => {
+    console.log('in new');
     try {
         await Boy.create([
             {
