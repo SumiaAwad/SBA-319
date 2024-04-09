@@ -5,7 +5,7 @@ const girlSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    color: {
+    number: {
         type: String,
         required: true
     },
